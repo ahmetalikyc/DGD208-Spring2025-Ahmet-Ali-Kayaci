@@ -1,40 +1,66 @@
 public class Game
 {
-    private bool _isRunning;
-    
-    public async Task GameLoop()
+    private Menu _menu;
+    private Pet _pet;
+    private ItemDatabase _itemDatabase;
+
+    public Game()
     {
-        // Initialize the game
-        Initialize();
-        
-        // Main game loop
-        _isRunning = true;
-        while (_isRunning)
+        _menu = new Menu();
+        _itemDatabase = new ItemDatabase();
+    }
+
+    public void StartGame()
+    {
+        bool gameRunning = true;
+        while (gameRunning)
         {
-            // Display menu and get player input
-            string userChoice = GetUserInput();
-            
-            // Process the player's choice
-            await ProcessUserChoice(userChoice);
+            _menu.ShowMainMenu();
+            int choice = int.Parse(Console.ReadLine());
+
+            switch (choice)
+            {
+                case 1:
+                    _menu.ShowAdoptMenu();
+                    int petChoice = int.Parse(Console.ReadLine());
+                    AdoptPet(petChoice);
+                    break;
+                case 2:
+                    ShowPetStats();
+                    break;
+                case 3:
+                    gameRunning = false;
+                    break;
+            }
         }
-        
-        Console.WriteLine("Thanks for playing!");
     }
-    
-    private void Initialize()
+
+    private void AdoptPet(int petChoice)
     {
-        // Use this to initialize the game
+        switch (petChoice)
+        {
+            case 1:
+                _pet = new Pet("Cat", PetType.Cat);
+                break;
+            case 2:
+                _pet = new Pet("Dog", PetType.Dog);
+                break;
+            case 3:
+                _pet = new Pet("Rabbit", PetType.Rabbit);
+                break;
+            case 4:
+                _pet = new Pet("Parrot", PetType.Parrot);
+                break;
+        }
+        Console.WriteLine($"{_pet.Name} has been adopted!");
     }
-    
-    private string GetUserInput()
+
+    private void ShowPetStats()
     {
-        // Use this to display appropriate menu and get user inputs
-        return "";
-    }
-    
-    private async Task ProcessUserChoice(string choice)
-    {
-        // Use this to process any choice user makes
-        // Set _isRunning = false to exit the game
+        Console.WriteLine($"Pet Name: {_pet.Name}");
+        Console.WriteLine($"Health: {_pet.Stats[PetStat.Health]}");
+        Console.WriteLine($"Fun: {_pet.Stats[PetStat.Fun]}");
+        Console.WriteLine($"Fullness: {_pet.Stats[PetStat.Fullness]}");
+        Console.WriteLine($"Sleep: {_pet.Stats[PetStat.Sleep]}");
     }
 }

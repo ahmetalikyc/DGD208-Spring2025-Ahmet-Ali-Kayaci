@@ -1,26 +1,45 @@
+using System;
 using System.Collections.Generic;
 
-public static class ItemDatabase
+public class ItemDatabase
 {
-    public static List<Item> items = new List<Item>
-    {
-        new Item("Cat Food", ItemType.Food, new PetType[] { PetType.Cat }, new Dictionary<PetStat, int>
-        {
-            { PetStat.Fullness, 20 },
-            { PetStat.Fun, -2 },
-            { PetStat.Health, 2 }
-        }, 2),
+    public List<Item> Items { get; private set; }
 
-        new Item("Bird Seed", ItemType.Food, new PetType[] { PetType.Parrot }, new Dictionary<PetStat, int>
-        {
-            { PetStat.Fullness, 15 },
-            { PetStat.Fun, 0 },
-            { PetStat.Health, 1 }
-        }, 2),
-    };
-
-    public static List<Item> GetItemsForPet(PetType type)
+    public ItemDatabase()
     {
-        return items.Where(i => i.applicablePets.Contains(type)).ToList();
+        Items = new List<Item>();
+        LoadItems();
+    }
+
+    private void LoadItems()
+    {
+        Items.Add(new Item("Fish", new Dictionary<PetStat, int> 
+        {
+            { PetStat.Fun, 10 },
+            { PetStat.Fullness, 20 }
+        }));
+
+        Items.Add(new Item("Catnip", new Dictionary<PetStat, int>
+        {
+            { PetStat.Fun, 25 },
+            { PetStat.Health, 5 }
+        }));
+
+        Items.Add(new Item("Bird Seed", new Dictionary<PetStat, int>
+        {
+            { PetStat.Fun, 15 },
+            { PetStat.Fullness, 5 }
+        }));
+
+        Items.Add(new Item("Carrot", new Dictionary<PetStat, int>
+        {
+            { PetStat.Fun, 5 },
+            { PetStat.Fullness, 25 }
+        }));
+    }
+
+    public Item GetItemByName(string name)
+    {
+        return Items.Find(item => item.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
     }
 }

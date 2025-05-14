@@ -1,8 +1,7 @@
 public enum PetType
 {
-    Dog,
     Cat,
-    Bird,
-    Fish,
-    Rabbit
+    Dog,
+    Rabbit,
+    Parrot 
 }

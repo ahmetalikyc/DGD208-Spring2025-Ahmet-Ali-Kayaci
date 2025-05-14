@@ -1,4 +1,3 @@
-// PetStat.cs
 public enum PetStat
 {
     Fullness,   

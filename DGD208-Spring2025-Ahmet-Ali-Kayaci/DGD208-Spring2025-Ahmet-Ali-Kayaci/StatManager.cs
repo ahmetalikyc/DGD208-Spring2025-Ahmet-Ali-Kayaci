@@ -1,20 +1,39 @@
-public class StatManager
-{
-    public async Task DecreaseStatsOverTime(Pet pet)
-    {
-        while (pet.Stats[PetStat.Health] > 0 && pet.Stats[PetStat.Fun] > 0 && pet.Stats[PetStat.Fullness] > 0 && pet.Stats[PetStat.Sleep] > 0)
-        {
-            await Task.Delay(1000); // 1 sn
-            pet.Stats[PetStat.Health]--;
-            pet.Stats[PetStat.Fun]--;
-            pet.Stats[PetStat.Fullness]--;
-            pet.Stats[PetStat.Sleep]--;
+using System;
 
-            if (pet.Stats[PetStat.Health] <= 0 || pet.Stats[PetStat.Fun] <= 0 || pet.Stats[PetStat.Fullness] <= 0 || pet.Stats[PetStat.Sleep] <= 0)
+namespace PetSimulator
+{
+    public static class StatManager
+    {
+        #region Mood System
+        public static string GetMood(int happiness)
+        {
+            return happiness switch
             {
-                Console.WriteLine($"{pet.Name} has died!");
-                break;
-            }
+                >= 85 => "Great",
+                >= 75 => "Happy", 
+                >= 65 => "Not Bad",
+                _ => "Unhappy"
+            };
         }
+        #endregion
+
+        #region Display Methods
+        public static void DisplayPetDetails(Pet pet, int currentDay)
+        {
+            Console.WriteLine($"\n=== {pet.Name} ({pet.Type}) ===");
+            Console.WriteLine($"Happiness: {pet.GetStatValue(PetStat.Happiness)}/100");
+            Console.WriteLine($"Hunger: {pet.GetStatValue(PetStat.Hunger)}/100");
+            Console.WriteLine($"Sleep: {pet.GetStatValue(PetStat.Sleep)}/100");
+            Console.WriteLine($"Energy: {pet.GetStatValue(PetStat.Energy)}/100");
+            Console.WriteLine($"Age: {pet.GetAge(currentDay)} days");
+            Console.WriteLine($"Status: {(pet.IsAlive ? "Alive" : "Deceased")}");
+            Console.WriteLine($"Mood: {GetMood(pet.GetStatValue(PetStat.Happiness))}");
+        }
+
+        public static void DisplayPetSummary(Pet pet, int currentDay)
+        {
+            Console.WriteLine($"- {pet.Name} ({pet.Type}): H:{pet.GetStatValue(PetStat.Happiness)} Hu:{pet.GetStatValue(PetStat.Hunger)} S:{pet.GetStatValue(PetStat.Sleep)} E:{pet.GetStatValue(PetStat.Energy)} Age:{pet.GetAge(currentDay)}d Mood:{GetMood(pet.GetStatValue(PetStat.Happiness))}");
+        }
+        #endregion
     }
 }

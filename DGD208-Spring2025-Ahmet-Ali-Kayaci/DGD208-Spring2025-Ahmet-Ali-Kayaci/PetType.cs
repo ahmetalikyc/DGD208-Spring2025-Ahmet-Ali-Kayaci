@@ -1,7 +1,12 @@
-public enum PetType
+namespace PetSimulator
 {
-    Cat,
-    Dog,
-    Rabbit,
-    Parrot 
+    #region Pet Types Enumeration
+    public enum PetType
+    {
+        Dog,
+        Cat,
+        Parrot,
+        Rabbit
+    }
+    #endregion
 }

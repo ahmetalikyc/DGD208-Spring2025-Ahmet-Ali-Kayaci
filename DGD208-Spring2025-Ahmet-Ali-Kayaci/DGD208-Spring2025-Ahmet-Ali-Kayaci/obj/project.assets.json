@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ahmet\\RiderProjects\\DGD208-Spring2025-Ahmet-Ali-Kayaci\\DGD208-Spring2025-Ahmet-Ali-Kayaci\\DGD208-Spring2025-Ahmet-Ali-Kayaci.csproj",
+      "projectUniqueName": "C:\\Users\\Ahmet\\Documents\\GitHub\\DGD208-Spring2025-Ahmet-Ali-Kayaci-main\\DGD208-Spring2025-Ahmet-Ali-Kayaci\\DGD208-Spring2025-Ahmet-Ali-Kayaci\\DGD208-Spring2025-Ahmet-Ali-Kayaci.csproj",
       "projectName": "DGD208-Spring2025-Ahmet-Ali-Kayaci",
-      "projectPath": "C:\\Users\\Ahmet\\RiderProjects\\DGD208-Spring2025-Ahmet-Ali-Kayaci\\DGD208-Spring2025-Ahmet-Ali-Kayaci\\DGD208-Spring2025-Ahmet-Ali-Kayaci.csproj",
+      "projectPath": "C:\\Users\\Ahmet\\Documents\\GitHub\\DGD208-Spring2025-Ahmet-Ali-Kayaci-main\\DGD208-Spring2025-Ahmet-Ali-Kayaci\\DGD208-Spring2025-Ahmet-Ali-Kayaci\\DGD208-Spring2025-Ahmet-Ali-Kayaci.csproj",
       "packagesPath": "C:\\Users\\Ahmet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ahmet\\RiderProjects\\DGD208-Spring2025-Ahmet-Ali-Kayaci\\DGD208-Spring2025-Ahmet-Ali-Kayaci\\obj\\",
+      "outputPath": "C:\\Users\\Ahmet\\Documents\\GitHub\\DGD208-Spring2025-Ahmet-Ali-Kayaci-main\\DGD208-Spring2025-Ahmet-Ali-Kayaci\\DGD208-Spring2025-Ahmet-Ali-Kayaci\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

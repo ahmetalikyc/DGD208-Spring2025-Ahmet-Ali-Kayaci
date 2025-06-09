@@ -1,0 +1,14 @@
+C:\Users\Ahmet\RiderProjects\DGD208-Spring2025-Ahmet-Ali-Kayaci-main\DGD208-Spring2025-Ahmet-Ali-Kayaci\DGD208-Spring2025-Ahmet-Ali-Kayaci\obj\Debug\net8.0\DGD208-Spring2025-Ahmet-Ali-Kayaci.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmet\RiderProjects\DGD208-Spring2025-Ahmet-Ali-Kayaci-main\DGD208-Spring2025-Ahmet-Ali-Kayaci\DGD208-Spring2025-Ahmet-Ali-Kayaci\obj\Debug\net8.0\DGD208-Spring2025-Ahmet-Ali-Kayaci.AssemblyInfoInputs.cache
+C:\Users\Ahmet\RiderProjects\DGD208-Spring2025-Ahmet-Ali-Kayaci-main\DGD208-Spring2025-Ahmet-Ali-Kayaci\DGD208-Spring2025-Ahmet-Ali-Kayaci\obj\Debug\net8.0\DGD208-Spring2025-Ahmet-Ali-Kayaci.AssemblyInfo.cs
+C:\Users\Ahmet\RiderProjects\DGD208-Spring2025-Ahmet-Ali-Kayaci-main\DGD208-Spring2025-Ahmet-Ali-Kayaci\DGD208-Spring2025-Ahmet-Ali-Kayaci\obj\Debug\net8.0\DGD208-Spring2025-Ahmet-Ali-Kayaci.csproj.CoreCompileInputs.cache
+C:\Users\Ahmet\RiderProjects\DGD208-Spring2025-Ahmet-Ali-Kayaci-main\DGD208-Spring2025-Ahmet-Ali-Kayaci\DGD208-Spring2025-Ahmet-Ali-Kayaci\bin\Debug\net8.0\DGD208-Spring2025-Ahmet-Ali-Kayaci.exe
+C:\Users\Ahmet\RiderProjects\DGD208-Spring2025-Ahmet-Ali-Kayaci-main\DGD208-Spring2025-Ahmet-Ali-Kayaci\DGD208-Spring2025-Ahmet-Ali-Kayaci\bin\Debug\net8.0\DGD208-Spring2025-Ahmet-Ali-Kayaci.deps.json
+C:\Users\Ahmet\RiderProjects\DGD208-Spring2025-Ahmet-Ali-Kayaci-main\DGD208-Spring2025-Ahmet-Ali-Kayaci\DGD208-Spring2025-Ahmet-Ali-Kayaci\bin\Debug\net8.0\DGD208-Spring2025-Ahmet-Ali-Kayaci.runtimeconfig.json
+C:\Users\Ahmet\RiderProjects\DGD208-Spring2025-Ahmet-Ali-Kayaci-main\DGD208-Spring2025-Ahmet-Ali-Kayaci\DGD208-Spring2025-Ahmet-Ali-Kayaci\bin\Debug\net8.0\DGD208-Spring2025-Ahmet-Ali-Kayaci.dll
+C:\Users\Ahmet\RiderProjects\DGD208-Spring2025-Ahmet-Ali-Kayaci-main\DGD208-Spring2025-Ahmet-Ali-Kayaci\DGD208-Spring2025-Ahmet-Ali-Kayaci\bin\Debug\net8.0\DGD208-Spring2025-Ahmet-Ali-Kayaci.pdb
+C:\Users\Ahmet\RiderProjects\DGD208-Spring2025-Ahmet-Ali-Kayaci-main\DGD208-Spring2025-Ahmet-Ali-Kayaci\DGD208-Spring2025-Ahmet-Ali-Kayaci\obj\Debug\net8.0\DGD208-Spring2025-Ahmet-Ali-Kayaci.dll
+C:\Users\Ahmet\RiderProjects\DGD208-Spring2025-Ahmet-Ali-Kayaci-main\DGD208-Spring2025-Ahmet-Ali-Kayaci\DGD208-Spring2025-Ahmet-Ali-Kayaci\obj\Debug\net8.0\refint\DGD208-Spring2025-Ahmet-Ali-Kayaci.dll
+C:\Users\Ahmet\RiderProjects\DGD208-Spring2025-Ahmet-Ali-Kayaci-main\DGD208-Spring2025-Ahmet-Ali-Kayaci\DGD208-Spring2025-Ahmet-Ali-Kayaci\obj\Debug\net8.0\DGD208-Spring2025-Ahmet-Ali-Kayaci.pdb
+C:\Users\Ahmet\RiderProjects\DGD208-Spring2025-Ahmet-Ali-Kayaci-main\DGD208-Spring2025-Ahmet-Ali-Kayaci\DGD208-Spring2025-Ahmet-Ali-Kayaci\obj\Debug\net8.0\DGD208-Spring2025-Ahmet-Ali-Kayaci.genruntimeconfig.cache
+C:\Users\Ahmet\RiderProjects\DGD208-Spring2025-Ahmet-Ali-Kayaci-main\DGD208-Spring2025-Ahmet-Ali-Kayaci\DGD208-Spring2025-Ahmet-Ali-Kayaci\obj\Debug\net8.0\ref\DGD208-Spring2025-Ahmet-Ali-Kayaci.dll

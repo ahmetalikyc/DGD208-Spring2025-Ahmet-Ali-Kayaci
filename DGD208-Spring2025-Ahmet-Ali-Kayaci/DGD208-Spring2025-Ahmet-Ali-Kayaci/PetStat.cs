@@ -1,8 +1,12 @@
-public enum PetStat
+namespace PetSimulator
 {
-    Fullness,   
-    Energy,    
-    Sleep,      
-    Fun, 
-    Health,       
+    #region Pet Statistics Enumeration
+    public enum PetStat
+    {
+        Happiness,
+        Hunger,
+        Sleep,
+        Energy
+    }
+    #endregion
 }

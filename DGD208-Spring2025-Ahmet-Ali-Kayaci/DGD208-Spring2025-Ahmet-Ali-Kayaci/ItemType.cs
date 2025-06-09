@@ -1,6 +1,12 @@
-public enum ItemType
+namespace PetSimulator
 {
-    Food,
-    Toy,
-    Bed //deisebilir
+    #region Item Types Enumeration
+    public enum ItemType
+    {
+        RabbitFood,
+        CatFood,
+        DogFood,
+        BirdFood
+    }
+    #endregion
 }
